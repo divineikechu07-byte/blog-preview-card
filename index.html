@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  
+      *, *::before, *::after {
+    box-sizing: border-box;
+   }
+
+
+     body {
+    background-color:gold;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 16px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+    
+     .main-container {
+      flex-direction: column;
+      align-items: center;
+      width: 320px;
+      padding: 13px 12px 11px ;  
+      border-radius: 20px;
+      box-sizing: border-box;
+      background-color: white;
+      filter: drop-shadow(8px 8px );
+      border-style: inset;
+      justify-content: center;
+      align-items: center;
+   }
+     
+     .image {
+       width: 300px;
+       border-radius: 15px;
+       padding: 5px 10px 3px 4px ;
+       align-items: center;
+     }
+
+    .subject{ 
+      font-size: 14px;
+      font-weight: bold;
+      font-family: robot,arial;
+      background-color: gold;
+      width: 75px;
+      border-radius: 4px;
+      text-align: center;
+      margin: 7px 6px 6px 7px;
+      padding: 4px 4px 4px 4px ;
+
+    }
+
+    .date{
+      font-size: 12px;
+      padding: 9px 3px 6px 4px;
+    }
+
+  .title{
+    font-size: 19px;
+    font-weight: 700;
+     margin:12px 8px 4px 6px ;
+  }
+
+   .body-text{
+    font-size: 14px;
+   color: rgb(126, 125, 125);
+    align-content: center;
+    margin-top: 5px;
+    margin-bottom: 9px;
+    margin-right: 1px;
+    margin-left: 2px;
+    padding-bottom: 17px;
+    line-height: 1.4; 
+    display:inline-block; 
+   }
+
+   .profile{
+    font-family: roboto,Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+   font-size: 12px;
+   margin-top: 0px;
+   margin-bottom: 1px;
+   margin-left: 45px;
+   margin-top: -25px;
+       
+   }
+
+  .attribution{
+    opacity:0;
+  }
+
+  .images{
+    border-radius: 30px;
+    height: 30px;
+  }
+      
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+ 
+    
+  <div class="main-container">
+   
+   <div>
+ <img class="image" src="assets/images/illustration-article.svg">
+   </div>
+    
+  <div class="subject">
+   Learning
+   </div>
+
+   <div class="date">
+   Published 21 Dec 2023
+   </div>
+
+   <div class="title">
+   HTML & CSS foundations
+   </div>
+
+   <div class="body-text">
+   These languages are the backbone of every website, defining structure, content, and presentation.
+</div>
+
+    <img class="images" src="assets/images/image-avatar.webp">
+     
+    <div class="profile">
+   Greg Hooper
+   </div>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+</body>
+</html>
